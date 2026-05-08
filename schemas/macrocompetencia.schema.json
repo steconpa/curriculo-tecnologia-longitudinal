@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Macrocompetencia",
+  "description": "Estructura para una macrocompetencia del framework",
+  "schema_version": "1.0.0",
+  "type": "object",
+  "properties": {
+    "macrocompetencias": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "nombre", "descripcion"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^MC-[A-Z0-9]+$" },
+          "nombre": { "type": "string" },
+          "descripcion": { "type": "string" }
+        },
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "version": { "type": "string" },
+    "schema_version": { "type": "string" },
+    "fecha_actualizacion": { "type": "string", "format": "date" }
+  },
+  "required": ["macrocompetencias", "version", "schema_version"]
+}

@@ -1,0 +1,14 @@
+# Editor files
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.log
+
+# Secrets (if any)
+.env

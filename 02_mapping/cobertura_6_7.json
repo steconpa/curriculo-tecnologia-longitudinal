@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0.0",
+  "version": "1.1",
+  "fecha_actualizacion": "2025-03-01",
+  "grado_rango": "6-7",
+  "total_evidencias_men": 31,
+  "evidencias_cubiertas": 14,
+  "porcentaje_cobertura": 45,
+  "alertas_cobertura": [
+    "NETI: solo 2 de 8 evidencias cubiertas (25%) - faltan análisis histórico, interdisciplinariedad, sistemas tecnológicos, energía y cuarta revolución",
+    "TIS: solo 1 de 5 evidencias cubiertas (20%) - falta preservación ambiental, transformación de recursos, uso racional y derechos de acceso",
+    "UATI: faltan evidencias sobre principios de funcionamiento (UATI-6-7-03), uso seguro de herramientas (UATI-6-7-04) y organización de información (UATI-6-7-07)"
+  ],
+  "cobertura": [
+    { "evidencia_id": "NETI-6-7-01", "cubierta": false, "proyectos": [] },
+    { "evidencia_id": "NETI-6-7-02", "cubierta": true, "proyectos": ["P6-03"] },
+    { "evidencia_id": "NETI-6-7-03", "cubierta": false, "proyectos": [] },
+    { "evidencia_id": "NETI-6-7-04", "cubierta": false, "proyectos": [] },
+    { "evidencia_id": "NETI-6-7-05", "cubierta": false, "proyectos": [] },
+    { "evidencia_id": "NETI-6-7-06", "cubierta": true, "proyectos": ["P7-02"] },
+    { "evidencia_id": "NETI-6-7-07", "cubierta": false, "proyectos": [] },
+    { "evidencia_id": "NETI-6-7-08", "cubierta": false, "proyectos": [] },
+    { "evidencia_id": "UATI-6-7-01", "cubierta": true, "proyectos": ["P6-01"] },
+    { "evidencia_id": "UATI-6-7-02", "cubierta": true, "proyectos": ["P6-01"] },
+    { "evidencia_id": "UATI-6-7-03", "cubierta": false, "proyectos": [] },
+    { "evidencia_id": "UATI-6-7-04", "cubierta": false, "proyectos": [] },
+    {
+      "evidencia_id": "UATI-6-7-05",
+      "cubierta": true,
+      "proyectos": ["P6-02", "P6-04", "P7-03"]
+    },
+    {
+      "evidencia_id": "UATI-6-7-06",
+      "cubierta": true,
+      "proyectos": ["P6-02", "P6-04", "P7-01", "P7-04"]
+    },
+    { "evidencia_id": "UATI-6-7-07", "cubierta": false, "proyectos": [] },
+    { "evidencia_id": "SPTI-6-7-01", "cubierta": true, "proyectos": ["P6-02"] },
+    { "evidencia_id": "SPTI-6-7-02", "cubierta": false, "proyectos": [] },
+    { "evidencia_id": "SPTI-6-7-03", "cubierta": false, "proyectos": [] },
+    { "evidencia_id": "SPTI-6-7-04", "cubierta": true, "proyectos": ["P7-03"] },
+    { "evidencia_id": "SPTI-6-7-05", "cubierta": false, "proyectos": [] },
+    { "evidencia_id": "SPTI-6-7-06", "cubierta": false, "proyectos": [] },
+    { "evidencia_id": "SPTI-6-7-07", "cubierta": true, "proyectos": ["P7-04"] },
+    {
+      "evidencia_id": "SPTI-6-7-08",
+      "cubierta": true,
+      "proyectos": ["P6-03", "P7-01"]
+    },
+    { "evidencia_id": "SPTI-6-7-09", "cubierta": true, "proyectos": ["P7-02"] },
+    { "evidencia_id": "SPTI-6-7-10", "cubierta": true, "proyectos": ["P7-04"] },
+    {
+      "evidencia_id": "SPTI-6-7-11",
+      "cubierta": true,
+      "proyectos": ["P6-04", "P7-01", "P7-02", "P7-03"]
+    },
+    { "evidencia_id": "TIS-6-7-01", "cubierta": false, "proyectos": [] },
+    { "evidencia_id": "TIS-6-7-02", "cubierta": false, "proyectos": [] },
+    { "evidencia_id": "TIS-6-7-03", "cubierta": false, "proyectos": [] },
+    { "evidencia_id": "TIS-6-7-04", "cubierta": false, "proyectos": [] },
+    { "evidencia_id": "TIS-6-7-05", "cubierta": true, "proyectos": ["P6-01"] }
+  ]
+}

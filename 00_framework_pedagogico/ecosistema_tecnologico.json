@@ -1,0 +1,59 @@
+{
+  "version": "3.0.0",
+  "schema_version": "1.0.0",
+  "fecha_actualizacion": "2025-03-01",
+  "herramientas": {
+    "canva": {
+      "uso": "Diseño visual, infografías, rúbricas y materiales multimedia",
+      "grados_recomendados": ["6", "7", "8", "9"]
+    },
+    "google_drive": {
+      "uso": "Almacenamiento y organización centralizada",
+      "grados_recomendados": ["6", "7", "8", "9", "10", "11"]
+    },
+    "google_docs": {
+      "uso": "Guías, manuales y documentación textual",
+      "grados_recomendados": ["6", "7", "8", "9", "10", "11"]
+    },
+    "google_forms": {
+      "uso": "Evaluaciones diagnósticas y formativas",
+      "grados_recomendados": ["6", "7", "8", "9", "10", "11"]
+    },
+    "google_sheets": {
+      "uso": "Seguimiento, bases de datos y automatización",
+      "grados_recomendados": ["8", "9", "10", "11"]
+    },
+    "google_sites": {
+      "uso": "Portafolios y campus digitales",
+      "grados_recomendados": ["6", "7", "8", "9", "10", "11"]
+    },
+    "google_classroom": {
+      "uso": "Distribución y gestión de actividades",
+      "grados_recomendados": ["6", "7", "8", "9", "10", "11"]
+    },
+    "google_vids": {
+      "uso": "Microclases y cápsulas audiovisuales",
+      "grados_recomendados": ["6", "7", "8", "9", "10", "11"]
+    },
+    "apps_script": {
+      "uso": "Automatización de procesos educativos",
+      "grados_recomendados": ["10", "11"]
+    },
+    "notion": {
+      "uso": "Catálogo maestro curricular y documentación docente",
+      "grados_recomendados": ["9", "10", "11"]
+    },
+    "git": {
+      "uso": "Versionado, repositorios y trazabilidad de proyectos",
+      "grados_recomendados": ["9", "10", "11"]
+    },
+    "google_ai_studio": {
+      "uso": "Generación de contenidos, diferenciación y automatización pedagógica",
+      "grados_recomendados": ["10", "11"]
+    },
+    "antigravity": {
+      "uso": "Simulación, experimentación y experiencias inmersivas",
+      "grados_recomendados": ["10", "11"]
+    }
+  }
+}

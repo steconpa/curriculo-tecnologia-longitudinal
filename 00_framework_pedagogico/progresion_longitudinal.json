@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0.0",
+  "version": "3.0.0",
+  "fecha_actualizacion": "2025-03-01",
+  "trayectoria": {
+    "grado_6": {
+      "narrativa": "Soy ciudadano y creador digital",
+      "perfil": "Usuario consciente",
+      "enfoque_cognitivo": "Reconocimiento y comunicación",
+      "objetivos": [
+        "Comprender el entorno digital",
+        "Desarrollar hábitos digitales básicos",
+        "Iniciar documentación y organización",
+        "Comunicar ideas visualmente"
+      ],
+      "proyectos": [
+        { "ref": "P6-01", "nombre": "Infografía sobre seguridad digital" },
+        { "ref": "P6-02", "nombre": "Mini campaña multimedia" },
+        { "ref": "P6-03", "nombre": "Secuencias lógicas unplugged" },
+        { "ref": "P6-04", "nombre": "Scratch inicial narrativo" }
+      ]
+    },
+    "grado_7": {
+      "narrativa": "Diseño experiencias digitales interactivas",
+      "perfil": "Creador interactivo",
+      "enfoque_cognitivo": "Lógica secuencial",
+      "objetivos": [
+        "Construir sistemas interactivos simples",
+        "Aplicar lógica proposicional básica",
+        "Diseñar experiencias multimedia",
+        "Documentar procesos iniciales"
+      ],
+      "proyectos": [
+        { "ref": "P7-01", "nombre": "Narrativa interactiva en Scratch" },
+        { "ref": "P7-02", "nombre": "Mini videojuego lógico" },
+        { "ref": "P7-03", "nombre": "Juego educativo colaborativo" },
+        { "ref": "P7-04", "nombre": "Proyecto interactivo libre" }
+      ]
+    },
+    "grado_8": {
+      "narrativa": "Conecto software y mundo físico",
+      "perfil": "Constructor físico-digital",
+      "enfoque_cognitivo": "Sistemas interactivos",
+      "proyectos": [
+        { "ref": "P8-01", "nombre": "Arduino básico" },
+        { "ref": "P8-02", "nombre": "Semáforo inteligente" },
+        { "ref": "P8-03", "nombre": "Sistemas automatizados simples" }
+      ]
+    },
+    "grado_9": {
+      "narrativa": "Publico y comunico soluciones digitales",
+      "perfil": "Publicador digital",
+      "enfoque_cognitivo": "Estructuración y publicación",
+      "proyectos": [
+        { "ref": "P9-01", "nombre": "Página web HTML/CSS" },
+        { "ref": "P9-02", "nombre": "Proyecto web sobre ciudadanía digital" }
+      ]
+    },
+    "grado_10": {
+      "narrativa": "Automatizo procesos y organizo información",
+      "perfil": "Automatizador",
+      "enfoque_cognitivo": "Automatización",
+      "proyectos": [
+        {
+          "ref": "P10-01",
+          "nombre": "Sistema automatizado con Sheets y Apps Script"
+        },
+        { "ref": "P10-02", "nombre": "Gestión de datos escolares" }
+      ]
+    },
+    "grado_11": {
+      "narrativa": "Integro sistemas tecnológicos con impacto social",
+      "perfil": "Diseñador sistémico",
+      "enfoque_cognitivo": "Integración sistémica y pensamiento crítico",
+      "proyectos": [
+        {
+          "ref": "P11-01",
+          "nombre": "Proyecto interdisciplinario de impacto social"
+        },
+        {
+          "ref": "P11-02",
+          "nombre": "Integración Arduino + Web + Datos + Presentación"
+        }
+      ]
+    }
+  }
+}

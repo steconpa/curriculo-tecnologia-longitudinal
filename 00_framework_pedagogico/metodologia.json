@@ -1,0 +1,26 @@
+{
+  "version": "3.0.0",
+  "schema_version": "1.0.0",
+  "fecha_actualizacion": "2025-03-01",
+  "modelo": "Aprendizaje basado en proyectos longitudinales",
+  "duracion_periodo": "8 semanas",
+  "tiempo_presencial": "2 horas semanales",
+  "tiempo_autonomo": "4 horas semanales",
+  "estructura_sugerida_periodo": [
+    "Semana 1-2: Exploración y contextualización",
+    "Semana 3-4: Desarrollo guiado",
+    "Semana 5-6: Iteración y mejora",
+    "Semana 7: Evidencia integradora",
+    "Semana 8: Reflexión, documentación y cierre"
+  ],
+  "filosofia_evaluativa": {
+    "principios": [
+      "Evaluación formativa",
+      "Evidencias integradas",
+      "Procesos sobre memorización",
+      "Reflexión metacognitiva",
+      "Seguimiento longitudinal",
+      "Rúbricas permanentes por macrocompetencia"
+    ]
+  }
+}

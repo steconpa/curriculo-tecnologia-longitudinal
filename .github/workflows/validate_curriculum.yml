@@ -1,0 +1,31 @@
+name: Validate Curriculum
+
+on:
+  push:
+    paths:
+      - "**.json"
+  pull_request:
+    paths:
+      - "**.json"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install ajv and jq
+        run: npm install -g ajv-cli jq
+
+      - name: Validate JSON syntax
+        run: |
+          find . -name "*.json" -not -path "./node_modules/*" -exec jq . {} > /dev/null \;
+
+      - name: Validate macrocompetencias schema
+        run: ajv validate -s schemas/macrocompetencia.schema.json -d 00_framework_pedagogico/macrocompetencias.json
+
+      - name: Validate MEN competencias schema
+        run: ajv validate -s schemas/evidencia_men.schema.json -d 01_curriculo_base_men/competencias_6_7.json
+
+      - name: Validate mapping schema (6-7)
+        run: ajv validate -s schemas/proyecto.schema.json -d 02_mapping/proyectos_vs_men_6_7.json

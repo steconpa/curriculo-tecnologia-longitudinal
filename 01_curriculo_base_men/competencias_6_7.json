@@ -1,0 +1,164 @@
+{
+  "version": "1.0",
+  "schema_version": "1.0.0",
+  "fecha_actualizacion": "2025-03-01",
+  "grado_rango": "6-7",
+  "referencia": {
+    "documento": "Orientaciones curriculares para el área de Tecnología e Informática en educación básica y media",
+    "entidad": "Ministerio de Educación Nacional de Colombia"
+  },
+  "componentes": [
+    {
+      "id": "NETI",
+      "nombre": "Naturaleza y Evolución de la T&I",
+      "competencia": "Apropio principios y conceptos de la tecnología y la informática, presentes en diversos hitos de la tecnología que le han permitido al hombre transformar el entorno.",
+      "evidencias": [
+        {
+          "id": "NETI-6-7-01",
+          "descripcion": "Identifico innovaciones e inventos trascendentales para la sociedad, ubicando y explicando su contexto histórico."
+        },
+        {
+          "id": "NETI-6-7-02",
+          "descripcion": "Analizo las razones por las cuales la evolución de técnicas, procesos, herramientas, materiales e información, han contribuido a mejorar la fabricación de artefactos, el diseño de sistemas tecnológicos, la implementación de procesos y el desarrollo computacional a lo largo de la historia."
+        },
+        {
+          "id": "NETI-6-7-03",
+          "descripcion": "Propongo relaciones entre conceptos de tecnología e informática y factores contextuales que hacen posible los desarrollos tecnológicos a través de la historia."
+        },
+        {
+          "id": "NETI-6-7-04",
+          "descripcion": "Represento en estructuras conceptuales los conceptos propios de la tecnología y la informática, que se han empleado en la generación y evolución de productos de la tecnología."
+        },
+        {
+          "id": "NETI-6-7-05",
+          "descripcion": "Reconozco los conceptos y principios de otras disciplinas, que han contribuido a la creación de algunos productos tecnológicos e informáticos actuales."
+        },
+        {
+          "id": "NETI-6-7-06",
+          "descripcion": "Explico con ejemplos los sistemas tecnológicos, indicando sus principios, conceptos, componentes y relaciones de causa efecto."
+        },
+        {
+          "id": "NETI-6-7-07",
+          "descripcion": "Argumento sobre las transformaciones y utilización de fuentes de energía y redes en la actualidad y su incidencia en los desarrollos tecnológicos futuros."
+        },
+        {
+          "id": "NETI-6-7-08",
+          "descripcion": "Expongo puntos de encuentro y desencuentro sobre como los desarrollos tecnológicos, informáticos y las tecnologías de la cuarta revolución industrial transformarán el entorno natural, social y cultural del hombre."
+        }
+      ]
+    },
+    {
+      "id": "UATI",
+      "nombre": "Uso y apropiación de la T&I",
+      "competencia": "Evalúo con sentido crítico el funcionamiento de algunos productos tecnológicos y su uso adecuado durante la realización de actividades en diversos contextos.",
+      "evidencias": [
+        {
+          "id": "UATI-6-7-01",
+          "descripcion": "Aplico normas de seguridad que se deben tener en cuenta para el uso de productos tecnológicos."
+        },
+        {
+          "id": "UATI-6-7-02",
+          "descripcion": "Analizo el impacto de los productos tecnológicos y reflexiono sobre su aporte en la solución de problemas y satisfacción de necesidades."
+        },
+        {
+          "id": "UATI-6-7-03",
+          "descripcion": "Reconozco y uso principios de funcionamiento que sustentan productos de la tecnología."
+        },
+        {
+          "id": "UATI-6-7-04",
+          "descripcion": "Utilizo herramientas y equipos de manera segura para construir modelos, maquetas y prototipos."
+        },
+        {
+          "id": "UATI-6-7-05",
+          "descripcion": "Uso las tecnologías de la información y la comunicación, para procesar información, comunicar ideas creativamente, trabajar colaborativamente y generar representaciones de la realidad en múltiples formatos."
+        },
+        {
+          "id": "UATI-6-7-06",
+          "descripcion": "Construyo contenidos digitales que incluyen recursos de información en diversos formatos (texto, imagen, video, sonido), para diferentes situaciones de la vida cotidiana."
+        },
+        {
+          "id": "UATI-6-7-07",
+          "descripcion": "Organizo información sobre productos tecnológicos mediante contenidos digitales en diferentes formatos a través de diversos canales de comunicación."
+        }
+      ]
+    },
+    {
+      "id": "SPTI",
+      "nombre": "Solución de problemas con T&I",
+      "competencia": "Presento diversas alternativas para la satisfacción de necesidades y solución de problemas tecnológicos e informáticos en diferentes contextos.",
+      "evidencias": [
+        {
+          "id": "SPTI-6-7-01",
+          "descripcion": "Identifico problemas propios del entorno que son susceptibles de ser resueltos a través de soluciones tecnológicas o informáticas."
+        },
+        {
+          "id": "SPTI-6-7-02",
+          "descripcion": "Selecciono alternativas tecnológicas o informáticas apropiadas, para la solución de un problema, teniendo en cuenta criterios como eficiencia, seguridad, consumo, impacto y costo, entre otros."
+        },
+        {
+          "id": "SPTI-6-7-03",
+          "descripcion": "Identifico la influencia de factores ambientales, sociales, culturales y económicos en la solución de problemas."
+        },
+        {
+          "id": "SPTI-6-7-04",
+          "descripcion": "Utilizo algunas formas de organización del trabajo para solucionar problemas con la ayuda de la tecnología o la informática."
+        },
+        {
+          "id": "SPTI-6-7-05",
+          "descripcion": "Interpreto gráficos, bocetos y planos en diferentes actividades."
+        },
+        {
+          "id": "SPTI-6-7-06",
+          "descripcion": "Detecto fallas en artefactos, procesos y sistemas tecnológicos o informáticos, siguiendo procedimientos de prueba y descarte, y propongo estrategias o alternativas de solución."
+        },
+        {
+          "id": "SPTI-6-7-07",
+          "descripcion": "Adapto soluciones tecnológicas o informáticas en diferentes contextos y problemas."
+        },
+        {
+          "id": "SPTI-6-7-08",
+          "descripcion": "Descompongo un problema en secuencia de pasos proponiendo o desarrollando probables soluciones a los problemas planteados."
+        },
+        {
+          "id": "SPTI-6-7-09",
+          "descripcion": "Propongo procesos sencillos de innovación en mi entorno como solución a deficiencias detectadas en productos, procesos y sistemas tecnológicos o informáticos."
+        },
+        {
+          "id": "SPTI-6-7-10",
+          "descripcion": "Realizo representaciones gráficas tridimensionales de mis ideas y diseños encaminados a la solución de problemas en mi entorno."
+        },
+        {
+          "id": "SPTI-6-7-11",
+          "descripcion": "Elaboro algoritmos en un entorno de programación para solucionar problemas que requieren el uso de estructuras básicas de secuenciación, condición o repetición."
+        }
+      ]
+    },
+    {
+      "id": "TIS",
+      "nombre": "Tecnología, Informática y Sociedad",
+      "competencia": "Evalúo los impactos que la transformación de los recursos naturales tiene en el bienestar de la sociedad y en el medio ambiente.",
+      "evidencias": [
+        {
+          "id": "TIS-6-7-01",
+          "descripcion": "Indago sobre las posibles acciones que puedo realizar para preservar el ambiente, de acuerdo con normas y regulaciones políticas en el uso y disposición final de productos de las tecnologías."
+        },
+        {
+          "id": "TIS-6-7-02",
+          "descripcion": "Analizo las ventajas y desventajas de diversos procesos de transformación de los recursos naturales en productos o sistemas tecnológicos o informáticos."
+        },
+        {
+          "id": "TIS-6-7-03",
+          "descripcion": "Participo en discusiones sobre el uso racional de algunos artefactos tecnológicos analógicos y digitales."
+        },
+        {
+          "id": "TIS-6-7-04",
+          "descripcion": "Reconozco los derechos de las comunidades para acceder a bienes y servicios tecnológicos o informáticos (como, por ejemplo, los recursos energéticos e hídricos o la conectividad)."
+        },
+        {
+          "id": "TIS-6-7-05",
+          "descripcion": "Asumo comportamientos legales y respetuosos relacionados con el uso de los recursos tecnológicos o informáticos."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "version_global": "3.0.0",
+  "fecha_publicacion": "2025-03-01",
+  "mantenido_por": "Ecosistema Longitudinal de Aprendizaje",
+  "componentes": {
+    "framework": {
+      "vision": "00_framework_pedagogico/vision.json",
+      "macrocompetencias": "00_framework_pedagogico/macrocompetencias.json",
+      "metodologia": "00_framework_pedagogico/metodologia.json",
+      "progresion_longitudinal": "00_framework_pedagogico/progresion_longitudinal.json",
+      "ecosistema_tecnologico": "00_framework_pedagogico/ecosistema_tecnologico.json",
+      "portafolio": "00_framework_pedagogico/portafolio.json"
+    },
+    "curriculo_base_men": {
+      "competencias_6_7": "01_curriculo_base_men/competencias_6_7.json"
+    },
+    "mapping": {
+      "proyectos_6_7": "02_mapping/proyectos_vs_men_6_7.json",
+      "proyectos_8_11": "02_mapping/proyectos_vs_men_8_11.json",
+      "cobertura_6_7": "02_mapping/cobertura_6_7.json"
+    },
+    "taxonomy": {
+      "categorias": "taxonomy/categorias.json"
+    },
+    "schemas": {
+      "macrocompetencia": "schemas/macrocompetencia.schema.json",
+      "proyecto": "schemas/proyecto.schema.json",
+      "evidencia_men": "schemas/evidencia_men.schema.json"
+    }
+  },
+  "dependencias": {
+    "validacion_esquemas": "JSON Schema draft-07"
+  },
+  "deuda_tecnica": [
+    "Falta schema para cobertura_6_7.json",
+    "Falta schema para proyectos_vs_men_8_11.json",
+    "No hay validación automática de integridad referencial (evidencias MEN vs proyectos)"
+  ]
+}

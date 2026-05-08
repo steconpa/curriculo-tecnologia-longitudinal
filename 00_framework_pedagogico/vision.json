@@ -1,0 +1,25 @@
+{
+  "version": "3.0.0",
+  "schema_version": "1.0.0",
+  "fecha_actualizacion": "2025-03-01",
+  "nombre_modelo": "Ecosistema Longitudinal de Aprendizaje en Tecnología e Informática",
+  "proposito_general": "Construir un ecosistema curricular portable, modular y progresivo para el área de Tecnología e Informática (grados 6°–11°), alineado con las Orientaciones Curriculares del MEN, centrado en competencias acumulativas, proyectos integradores, pensamiento tecnológico y documentación longitudinal.",
+  "vision_pedagogica": {
+    "descripcion": "El modelo concibe el aprendizaje como una trayectoria evolutiva y no como una sucesión aislada de temas. Cada grado desarrolla capacidades cognitivas, tecnológicas y críticas de forma progresiva mediante experiencias auténticas y proyectos interdisciplinarios.",
+    "principios": [
+      "Aprender creando",
+      "Pensamiento computacional progresivo",
+      "Integración de competencias en productos reales",
+      "Documentación y reflexión continua",
+      "Ciudadanía digital crítica",
+      "Diseño y solución de problemas",
+      "Aprendizaje basado en proyectos",
+      "Progresión longitudinal",
+      "Uso estratégico de herramientas digitales",
+      "Evaluación formativa y acumulativa"
+    ]
+  },
+  "objetivo_final_estudiante": {
+    "descripcion": "Formar estudiantes capaces de comprender, diseñar, documentar, analizar críticamente y construir soluciones tecnológicas con impacto social y pensamiento ético."
+  }
+}

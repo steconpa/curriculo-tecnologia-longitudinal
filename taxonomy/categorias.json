@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "fecha_actualizacion": "2025-03-01",
+  "modalidades": ["individual", "grupal", "mixta"],
+  "niveles_complejidad": ["basico", "intermedio", "avanzado"],
+  "tipos_producto": [
+    "infografia",
+    "videojuego",
+    "simulacion",
+    "sitio_web",
+    "automatizacion",
+    "campaña_digital",
+    "animacion_interactiva",
+    "prototipo_arduino",
+    "documento_tecnico"
+  ],
+  "categorias_portafolio": [
+    "capturas_pantalla",
+    "reflexion_corta",
+    "autoevaluacion",
+    "plan_trabajo",
+    "versionado",
+    "reflexion_equipo",
+    "capturas_diagramas",
+    "explicacion_pasos",
+    "video_corto",
+    "bitacora",
+    "diagrama_ramas",
+    "capturas_eventos",
+    "reflexion_mejoras",
+    "plan_alpha",
+    "pruebas",
+    "capturas_bugs",
+    "rol_tareas",
+    "repositorio_compartido",
+    "retrospectiva",
+    "propuesta_inicial",
+    "prototipo_iterativo",
+    "video_explicativo"
+  ]
+}

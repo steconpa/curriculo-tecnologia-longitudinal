@@ -1,0 +1,42 @@
+{
+  "version": "3.0.0",
+  "schema_version": "1.0.0",
+  "fecha_actualizacion": "2025-03-01",
+  "macrocompetencias": [
+    {
+      "id": "MC-PC",
+      "nombre": "Pensamiento computacional",
+      "descripcion": "Desarrollo progresivo de lógica, algoritmos, abstracción, secuencias, modularización y automatización."
+    },
+    {
+      "id": "MC-DSP",
+      "nombre": "Diseño y solución de problemas tecnológicos",
+      "descripcion": "Creación de soluciones mediante prototipado, iteración y pensamiento de diseño."
+    },
+    {
+      "id": "MC-CDM",
+      "nombre": "Comunicación digital y multimedia",
+      "descripcion": "Expresión de ideas mediante medios visuales, interactivos y digitales."
+    },
+    {
+      "id": "MC-ECD",
+      "nombre": "Ética y ciudadanía digital",
+      "descripcion": "Comprensión crítica del impacto social, ético y cultural de la tecnología."
+    },
+    {
+      "id": "MC-GPC",
+      "nombre": "Gestión de proyectos colaborativos",
+      "descripcion": "Planificación, organización, roles, trabajo en equipo y liderazgo progresivo."
+    },
+    {
+      "id": "MC-DT",
+      "nombre": "Documentación técnica",
+      "descripcion": "Registro sistemático de procesos, versiones, decisiones, errores y reflexiones."
+    },
+    {
+      "id": "MC-ACS",
+      "nombre": "Análisis crítico de sistemas tecnológicos",
+      "descripcion": "Evaluación de implicaciones sociales, económicas y culturales de plataformas, IA y sistemas digitales."
+    }
+  ]
+}

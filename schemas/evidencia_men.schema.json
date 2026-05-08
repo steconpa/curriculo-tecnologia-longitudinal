@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Evidencia MEN",
+  "description": "Esquema para el archivo de competencias y evidencias del MEN",
+  "schema_version": "1.0.0",
+  "type": "object",
+  "properties": {
+    "version": { "type": "string" },
+    "schema_version": { "type": "string" },
+    "fecha_actualizacion": { "type": "string", "format": "date" },
+    "grado_rango": { "type": "string" },
+    "referencia": {
+      "type": "object",
+      "properties": {
+        "documento": { "type": "string" },
+        "entidad": { "type": "string" }
+      },
+      "required": ["documento", "entidad"]
+    },
+    "componentes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "pattern": "^(NETI|UATI|SPTI|TIS)$" },
+          "nombre": { "type": "string" },
+          "competencia": { "type": "string" },
+          "evidencias": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^(NETI|UATI|SPTI|TIS)-6-7-[0-9]{2}$"
+                },
+                "descripcion": { "type": "string" }
+              },
+              "required": ["id", "descripcion"]
+            }
+          }
+        },
+        "required": ["id", "nombre", "competencia", "evidencias"]
+      }
+    }
+  },
+  "required": [
+    "version",
+    "schema_version",
+    "fecha_actualizacion",
+    "grado_rango",
+    "referencia",
+    "componentes"
+  ]
+}

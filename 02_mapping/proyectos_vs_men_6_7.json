@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0.0",
+  "version": "2.0",
+  "fecha_actualizacion": "2025-03-01",
+  "descripcion": "Mapeo de proyectos del Ecosistema Longitudinal (grados 6 y 7) con evidencias del MEN, macrocompetencias, metadatos pedagógicos y requisitos de portafolio.",
+  "grado_rango": "6-7",
+  "proyectos": [
+    {
+      "id": "P6-01",
+      "nombre": "Infografía sobre seguridad digital",
+      "grado_aplicable": 6,
+      "duracion_semanas": 8,
+      "producto": "infografia",
+      "modalidad": "individual",
+      "nivel_complejidad": "basico",
+      "evidencias_men": ["UATI-6-7-01", "UATI-6-7-02", "TIS-6-7-05"],
+      "macrocompetencias": ["MC-CDM", "MC-ECD"],
+      "portafolio_evidencias": [
+        "capturas_pantalla",
+        "reflexion_corta",
+        "autoevaluacion"
+      ]
+    },
+    {
+      "id": "P6-02",
+      "nombre": "Mini campaña multimedia",
+      "grado_aplicable": 6,
+      "duracion_semanas": 8,
+      "producto": "campaña digital",
+      "modalidad": "grupal",
+      "nivel_complejidad": "basico",
+      "evidencias_men": ["UATI-6-7-05", "UATI-6-7-06", "SPTI-6-7-01"],
+      "macrocompetencias": ["MC-CDM", "MC-GPC"],
+      "portafolio_evidencias": [
+        "plan_trabajo",
+        "versionado",
+        "reflexion_equipo"
+      ]
+    },
+    {
+      "id": "P6-03",
+      "nombre": "Secuencias lógicas unplugged",
+      "grado_aplicable": 6,
+      "duracion_semanas": 4,
+      "producto": "documento_tecnico",
+      "modalidad": "individual",
+      "nivel_complejidad": "basico",
+      "evidencias_men": ["SPTI-6-7-08", "NETI-6-7-02"],
+      "macrocompetencias": ["MC-PC", "MC-DSP"],
+      "portafolio_evidencias": ["capturas_diagramas", "explicacion_pasos"]
+    },
+    {
+      "id": "P6-04",
+      "nombre": "Scratch inicial narrativo",
+      "grado_aplicable": 6,
+      "duracion_semanas": 8,
+      "producto": "animacion_interactiva",
+      "modalidad": "mixta",
+      "nivel_complejidad": "basico",
+      "evidencias_men": ["SPTI-6-7-11", "UATI-6-7-05", "UATI-6-7-06"],
+      "macrocompetencias": ["MC-PC", "MC-CDM"],
+      "portafolio_evidencias": ["capturas_codigo", "video_corto", "bitacora"]
+    },
+    {
+      "id": "P7-01",
+      "nombre": "Narrativa interactiva en Scratch",
+      "grado_aplicable": 7,
+      "duracion_semanas": 8,
+      "producto": "animacion_interactiva",
+      "modalidad": "individual",
+      "nivel_complejidad": "intermedio",
+      "evidencias_men": ["SPTI-6-7-11", "SPTI-6-7-08", "UATI-6-7-06"],
+      "macrocompetencias": ["MC-PC", "MC-DSP"],
+      "portafolio_evidencias": [
+        "diagrama_ramas",
+        "capturas_eventos",
+        "reflexion_mejoras"
+      ]
+    },
+    {
+      "id": "P7-02",
+      "nombre": "Mini videojuego lógico",
+      "grado_aplicable": 7,
+      "duracion_semanas": 10,
+      "producto": "videojuego",
+      "modalidad": "grupal",
+      "nivel_complejidad": "intermedio",
+      "evidencias_men": ["SPTI-6-7-11", "SPTI-6-7-09", "NETI-6-7-06"],
+      "macrocompetencias": ["MC-PC", "MC-DSP", "MC-ACS"],
+      "portafolio_evidencias": ["plan_alpha", "pruebas", "capturas_bugs"]
+    },
+    {
+      "id": "P7-03",
+      "nombre": "Juego educativo colaborativo",
+      "grado_aplicable": 7,
+      "duracion_semanas": 8,
+      "producto": "videojuego",
+      "modalidad": "grupal",
+      "nivel_complejidad": "intermedio",
+      "evidencias_men": ["SPTI-6-7-04", "SPTI-6-7-11", "UATI-6-7-05"],
+      "macrocompetencias": ["MC-GPC", "MC-PC"],
+      "portafolio_evidencias": [
+        "rol_tareas",
+        "repositorio_compartido",
+        "retrospectiva"
+      ]
+    },
+    {
+      "id": "P7-04",
+      "nombre": "Proyecto interactivo libre",
+      "grado_aplicable": 7,
+      "duracion_semanas": 10,
+      "producto": "animacion_interactiva",
+      "modalidad": "mixta",
+      "nivel_complejidad": "avanzado",
+      "evidencias_men": ["SPTI-6-7-07", "SPTI-6-7-10", "UATI-6-7-06"],
+      "macrocompetencias": ["MC-DSP", "MC-CDM"],
+      "portafolio_evidencias": [
+        "propuesta_inicial",
+        "prototipo_iterativo",
+        "video_explicativo"
+      ]
+    }
+  ]
+}

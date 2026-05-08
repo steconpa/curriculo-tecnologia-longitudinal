@@ -1,0 +1,17 @@
+{
+  "version": "3.0.0",
+  "schema_version": "1.0.0",
+  "fecha_actualizacion": "2025-03-01",
+  "descripcion": "Sistema acumulativo de evidencias desde 6° hasta 11°.",
+  "componentes": [
+    "Proyectos",
+    "Reflexiones",
+    "Capturas",
+    "Bitácoras",
+    "Errores y mejoras",
+    "Autoevaluaciones",
+    "Documentación técnica"
+  ],
+  "herramientas_sugeridas": ["Google Sites", "Docs", "Git", "Notion"],
+  "periodicidad_recomendada": "Al final de cada proyecto (cada 8 semanas promedio)"
+}
