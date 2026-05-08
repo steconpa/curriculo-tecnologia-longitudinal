@@ -13,3 +13,4 @@ Thumbs.db
 # Secrets (if any)
 .env
 .claude/worktrees/zealous-mendeleev-4f1c49
+/.claude
