@@ -1,6 +1,11 @@
 {
-  "schema_version": "1.0.0",
-  "fecha_actualizacion": "2025-03-01",
+  "schema_version": "1.1.0",
+  "version": "1.1",
+  "fecha_actualizacion": "2026-05-08",
+  "changelog": [
+    "1.1.0 (2026-05-08): Se agregan productos prototipo_fisico, presentacion_digital y video_documental para cubrir proyectos de NETI/TIS/UATI. Se agregan 8 categorias_portafolio derivadas de la propuesta de cobertura de las 17 evidencias huerfanas (mapa_conceptual, plan_diseno, foto_prototipo, tabla_comparativa, guion_video, acta_debate, diseno_circuito, informe_experimentacion).",
+    "1.0.0 (2025-03-01): Version inicial."
+  ],
   "modalidades": ["individual", "grupal", "mixta"],
   "niveles_complejidad": ["basico", "intermedio", "avanzado"],
   "tipos_producto": [
@@ -9,9 +14,12 @@
     "simulacion",
     "sitio_web",
     "automatizacion",
-    "campaña_digital",
+    "campana_digital",
     "animacion_interactiva",
     "prototipo_arduino",
+    "prototipo_fisico",
+    "presentacion_digital",
+    "video_documental",
     "documento_tecnico"
   ],
   "categorias_portafolio": [
@@ -36,6 +44,15 @@
     "retrospectiva",
     "propuesta_inicial",
     "prototipo_iterativo",
-    "video_explicativo"
+    "video_explicativo",
+    "capturas_codigo",
+    "mapa_conceptual",
+    "plan_diseno",
+    "foto_prototipo",
+    "tabla_comparativa",
+    "guion_video",
+    "acta_debate",
+    "diseno_circuito",
+    "informe_experimentacion"
   ]
 }

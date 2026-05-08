@@ -1,13 +1,13 @@
 {
-  "schema_version": "1.0.0",
-  "version": "2.0",
-  "fecha_actualizacion": "2025-03-01",
-  "descripcion": "Mapeo de proyectos del Ecosistema Longitudinal (grados 6 y 7) con evidencias del MEN, macrocompetencias, metadatos pedagógicos y requisitos de portafolio.",
+  "schema_version": "1.1.0",
+  "version": "3.0",
+  "fecha_actualizacion": "2026-05-08",
+  "descripcion": "Mapeo de proyectos del Ecosistema Longitudinal (grados 6 y 7) con evidencias del MEN, macrocompetencias, metadatos pedagogicos y requisitos de portafolio. v3.0 incorpora 7 proyectos nuevos (P6-05 a P6-08, P7-05 a P7-07) que cierran las 17 evidencias huerfanas y elevan la cobertura del 45% al 100%.",
   "grado_rango": "6-7",
   "proyectos": [
     {
       "id": "P6-01",
-      "nombre": "Infografía sobre seguridad digital",
+      "nombre": "Infografia sobre seguridad digital",
       "grado_aplicable": 6,
       "duracion_semanas": 8,
       "producto": "infografia",
@@ -19,14 +19,20 @@
         "capturas_pantalla",
         "reflexion_corta",
         "autoevaluacion"
-      ]
+      ],
+      "descripcion_pedagogica": "El estudiante investiga riesgos digitales cotidianos (contrasenas debiles, phishing, ciberacoso, huella digital, suplantacion en redes sociales) y disena en Canva una infografia que comunica buenas practicas de seguridad para usuarios de su edad. El producto final se publica en Classroom y se acompana de una autoevaluacion sobre el propio comportamiento digital.",
+      "justificacion_cobertura": {
+        "UATI-6-7-01": "Para construir las recomendaciones de la infografia el estudiante debe aplicar y comunicar normas de seguridad concretas que se deben tener en cuenta al usar productos tecnologicos (gestores de contrasena, autenticacion en dos pasos, configuracion de privacidad).",
+        "UATI-6-7-02": "El proceso de investigacion previo exige analizar el impacto de los productos tecnologicos sobre la vida personal y reflexionar sobre como contribuyen o no a satisfacer necesidades de comunicacion segura.",
+        "TIS-6-7-05": "La autoevaluacion final lleva al estudiante a asumir comportamientos legales y respetuosos relacionados con el uso de los recursos tecnologicos e informaticos, reconociendo derechos y responsabilidades digitales propios y de otros."
+      }
     },
     {
       "id": "P6-02",
-      "nombre": "Mini campaña multimedia",
+      "nombre": "Mini campana multimedia",
       "grado_aplicable": 6,
       "duracion_semanas": 8,
-      "producto": "campaña digital",
+      "producto": "campana_digital",
       "modalidad": "grupal",
       "nivel_complejidad": "basico",
       "evidencias_men": ["UATI-6-7-05", "UATI-6-7-06", "SPTI-6-7-01"],
@@ -35,11 +41,17 @@
         "plan_trabajo",
         "versionado",
         "reflexion_equipo"
-      ]
+      ],
+      "descripcion_pedagogica": "Cada equipo identifica un problema concreto del entorno escolar o barrial (uso del agua, manejo de residuos, convivencia, transporte) y disena una mini campana multimedia con afiches, video corto, publicacion en Classroom y formulario de feedback. El proceso se gestiona con un plan de trabajo compartido y control de versiones de los entregables en Drive.",
+      "justificacion_cobertura": {
+        "UATI-6-7-05": "El equipo usa tecnologias de la informacion y la comunicacion (Drive, Slides, Vids, Forms) para procesar informacion sobre el problema, comunicar ideas creativamente y trabajar colaborativamente generando representaciones de la realidad en multiples formatos.",
+        "UATI-6-7-06": "La campana exige construir contenidos digitales que integran texto, imagen, video y sonido para distintas situaciones de la vida cotidiana del entorno escolar.",
+        "SPTI-6-7-01": "El punto de partida obliga al equipo a identificar problemas propios del entorno susceptibles de ser abordados mediante una solucion comunicacional con apoyo informatico."
+      }
     },
     {
       "id": "P6-03",
-      "nombre": "Secuencias lógicas unplugged",
+      "nombre": "Secuencias logicas unplugged",
       "grado_aplicable": 6,
       "duracion_semanas": 4,
       "producto": "documento_tecnico",
@@ -47,7 +59,12 @@
       "nivel_complejidad": "basico",
       "evidencias_men": ["SPTI-6-7-08", "NETI-6-7-02"],
       "macrocompetencias": ["MC-PC", "MC-DSP"],
-      "portafolio_evidencias": ["capturas_diagramas", "explicacion_pasos"]
+      "portafolio_evidencias": ["capturas_diagramas", "explicacion_pasos"],
+      "descripcion_pedagogica": "Sin computador, el estudiante toma tareas cotidianas (preparar una receta, organizar la mochila, llegar al colegio) y las descompone en pasos logicos representados como diagramas de flujo en papel y luego digitalizados en Slides. Compara dos versiones del mismo algoritmo para reflexionar sobre como las tecnicas y los procesos han evolucionado para hacer mejor la misma tarea.",
+      "justificacion_cobertura": {
+        "SPTI-6-7-08": "El estudiante descompone explicitamente un problema en una secuencia de pasos y propone soluciones probables, escribiendo y revisando algoritmos en lenguaje natural y en diagrama de flujo.",
+        "NETI-6-7-02": "Al comparar versiones del mismo algoritmo (manual vs optimizado, con y sin herramientas) el estudiante analiza por que la evolucion de tecnicas y procesos ha contribuido a mejorar la realizacion de una tarea, conectando el ejercicio con la historia del pensamiento procedimental."
+      }
     },
     {
       "id": "P6-04",
@@ -59,7 +76,95 @@
       "nivel_complejidad": "basico",
       "evidencias_men": ["SPTI-6-7-11", "UATI-6-7-05", "UATI-6-7-06"],
       "macrocompetencias": ["MC-PC", "MC-CDM"],
-      "portafolio_evidencias": ["capturas_codigo", "video_corto", "bitacora"]
+      "portafolio_evidencias": ["capturas_codigo", "video_corto", "bitacora"],
+      "descripcion_pedagogica": "Cada estudiante crea en Scratch una pequena historia animada con dos a tres escenas, dialogos por bocadillos y al menos una decision interactiva por parte del usuario. Trabaja primero individualmente el guion y la programacion y luego presenta su animacion al grupo, registrando el proceso en una bitacora con capturas del editor de bloques.",
+      "justificacion_cobertura": {
+        "SPTI-6-7-11": "La animacion exige elaborar algoritmos en un entorno de programacion (Scratch) usando estructuras basicas de secuenciacion, condicion (eventos al hacer clic, banderas verdes) y repeticion (bucles para animar movimiento).",
+        "UATI-6-7-05": "Scratch como herramienta TIC permite procesar informacion narrativa, comunicar ideas creativamente y generar una representacion interactiva de la realidad o de una historia inventada.",
+        "UATI-6-7-06": "El producto final es un contenido digital que integra texto (dialogos), imagen (sprites y fondos) y sonido, ajustado a una situacion comunicativa concreta del entorno escolar."
+      }
+    },
+    {
+      "id": "P6-05",
+      "nombre": "Linea de tiempo de la tecnologia",
+      "grado_aplicable": 6,
+      "duracion_semanas": 6,
+      "producto": "presentacion_digital",
+      "modalidad": "individual",
+      "nivel_complejidad": "basico",
+      "evidencias_men": ["NETI-6-7-01", "NETI-6-7-04"],
+      "macrocompetencias": ["MC-CDM", "MC-ACS"],
+      "portafolio_evidencias": [
+        "capturas_pantalla",
+        "mapa_conceptual",
+        "reflexion_corta"
+      ],
+      "descripcion_pedagogica": "El estudiante investiga inventos e hitos tecnologicos clave (rueda, imprenta, electricidad, computadora, Internet) y construye una linea de tiempo en Google Slides o Canva con imagenes, fechas y contexto historico. Complementa la linea con un mapa conceptual que organiza los conceptos centrales (energia, informacion, comunicacion) y muestra como evolucionaron sus principios.",
+      "justificacion_cobertura": {
+        "NETI-6-7-01": "La linea de tiempo exige identificar innovaciones e inventos trascendentales y ubicarlos en su contexto historico, explicando por que fueron significativos para su epoca.",
+        "NETI-6-7-04": "El mapa conceptual asociado obliga al estudiante a representar en estructuras conceptuales los conceptos propios de la tecnologia (energia, comunicacion, automatizacion) usados en la generacion y evolucion de productos."
+      }
+    },
+    {
+      "id": "P6-06",
+      "nombre": "Prototipo fisico de palancas y circuitos",
+      "grado_aplicable": 6,
+      "duracion_semanas": 6,
+      "producto": "prototipo_fisico",
+      "modalidad": "grupal",
+      "nivel_complejidad": "basico",
+      "evidencias_men": ["UATI-6-7-03", "UATI-6-7-04", "SPTI-6-7-05"],
+      "macrocompetencias": ["MC-DSP", "MC-DT"],
+      "portafolio_evidencias": ["plan_diseno", "foto_prototipo", "bitacora"],
+      "descripcion_pedagogica": "En equipos, los estudiantes leen un boceto tecnico simple (vista frontal + lateral) y construyen un prototipo fisico de palanca, polea o circuito electrico basico con materiales reciclados, alambre, pilas y bombillas. Explican el principio de funcionamiento (ventaja mecanica, flujo de corriente) y registran el proceso en bitacora con fotos.",
+      "justificacion_cobertura": {
+        "UATI-6-7-03": "Para que el prototipo funcione, el equipo debe reconocer y aplicar principios de funcionamiento (ley de la palanca, circuito cerrado, conduccion electrica).",
+        "UATI-6-7-04": "La construccion exige uso seguro de herramientas (tijeras, alicates, cinta aislante) y materiales para fabricar el modelo fisico.",
+        "SPTI-6-7-05": "El equipo recibe e interpreta bocetos y planos tecnicos sencillos como insumo de partida para construir su prototipo."
+      }
+    },
+    {
+      "id": "P6-07",
+      "nombre": "Sitio web sobre tecnologia y medio ambiente",
+      "grado_aplicable": 6,
+      "duracion_semanas": 8,
+      "producto": "sitio_web",
+      "modalidad": "grupal",
+      "nivel_complejidad": "basico",
+      "evidencias_men": ["TIS-6-7-01", "TIS-6-7-02"],
+      "macrocompetencias": ["MC-CDM", "MC-ECD"],
+      "portafolio_evidencias": [
+        "capturas_pantalla",
+        "video_corto",
+        "autoevaluacion"
+      ],
+      "descripcion_pedagogica": "En grupos, los estudiantes investigan el ciclo de vida de un dispositivo tecnologico (celular, computador o electrodomestico): de donde provienen sus materiales, como se fabrica, que pasa cuando se desecha. Construyen un sitio en Google Sites con secciones sobre extraccion de recursos, normas ambientales colombianas (Resolucion 1297 sobre RAEE) y buenas practicas de reciclaje electronico.",
+      "justificacion_cobertura": {
+        "TIS-6-7-01": "El sitio documenta acciones concretas para preservar el ambiente (puntos de recoleccion de RAEE, normativas colombianas) en el uso y disposicion final de productos tecnologicos.",
+        "TIS-6-7-02": "El analisis del ciclo de vida del dispositivo obliga a evaluar ventajas y desventajas de los procesos de transformacion de recursos naturales (mineria, plasticos, metales raros) en productos tecnologicos."
+      }
+    },
+    {
+      "id": "P6-08",
+      "nombre": "Comparativa de soluciones tecnologicas locales",
+      "grado_aplicable": 6,
+      "duracion_semanas": 8,
+      "producto": "presentacion_digital",
+      "modalidad": "grupal",
+      "nivel_complejidad": "intermedio",
+      "evidencias_men": ["SPTI-6-7-02", "SPTI-6-7-03", "UATI-6-7-07"],
+      "macrocompetencias": ["MC-DSP", "MC-ACS", "MC-GPC"],
+      "portafolio_evidencias": [
+        "tabla_comparativa",
+        "video_explicativo",
+        "reflexion_equipo"
+      ],
+      "descripcion_pedagogica": "Cada equipo elige un problema cotidiano del contexto (transporte escolar, comunicacion familiar, cocinar en zonas rurales sin gas) e identifica al menos tres soluciones tecnologicas alternativas. Construye una tabla comparativa con criterios de eficiencia, costo, consumo, impacto ambiental y pertinencia social, y presenta su recomendacion en una presentacion digital con narracion grabada.",
+      "justificacion_cobertura": {
+        "SPTI-6-7-02": "La tabla comparativa es la evidencia directa de seleccion de alternativas con criterios explicitos (eficiencia, seguridad, consumo, impacto, costo).",
+        "SPTI-6-7-03": "El criterio de pertinencia social y el contexto del problema escogido exigen identificar la influencia de factores ambientales, sociales, culturales y economicos.",
+        "UATI-6-7-07": "El producto final organiza la informacion sobre productos tecnologicos en multiples formatos (tabla, presentacion, narracion grabada) y se difunde por canales digitales (Classroom, Sites)."
+      }
     },
     {
       "id": "P7-01",
@@ -75,11 +180,17 @@
         "diagrama_ramas",
         "capturas_eventos",
         "reflexion_mejoras"
-      ]
+      ],
+      "descripcion_pedagogica": "Tomando como punto de partida lo aprendido en grado 6, el estudiante construye una narrativa ramificada en Scratch con al menos tres finales posibles segun decisiones del usuario. Antes de programar dibuja el arbol de decisiones, descompone cada rama en pasos y luego implementa la logica con variables, mensajes y condicionales. Documenta una iteracion de mejora despues de probar la animacion con un companero.",
+      "justificacion_cobertura": {
+        "SPTI-6-7-11": "La narrativa ramificada requiere algoritmos con estructuras de secuenciacion, condicion (decisiones del usuario) y repeticion (loops de animacion) en un entorno de programacion real.",
+        "SPTI-6-7-08": "El arbol de decisiones previo es la evidencia explicita de descomponer un problema en una secuencia de pasos y proponer soluciones probables antes de programar.",
+        "UATI-6-7-06": "El producto integra recursos en multiples formatos (texto, imagen, sonido, interactividad) para una situacion comunicativa concreta."
+      }
     },
     {
       "id": "P7-02",
-      "nombre": "Mini videojuego lógico",
+      "nombre": "Mini videojuego logico",
       "grado_aplicable": 7,
       "duracion_semanas": 10,
       "producto": "videojuego",
@@ -87,7 +198,13 @@
       "nivel_complejidad": "intermedio",
       "evidencias_men": ["SPTI-6-7-11", "SPTI-6-7-09", "NETI-6-7-06"],
       "macrocompetencias": ["MC-PC", "MC-DSP", "MC-ACS"],
-      "portafolio_evidencias": ["plan_alpha", "pruebas", "capturas_bugs"]
+      "portafolio_evidencias": ["plan_alpha", "pruebas", "capturas_bugs"],
+      "descripcion_pedagogica": "Cada equipo disena en Scratch un mini videojuego con mecanica clara (laberinto, recoleccion, esquivar obstaculos), reglas internas, sistema de puntaje y al menos un nivel jugable. Liberan una version alpha, ejecutan rondas de pruebas con companeros, registran bugs y proponen mejoras concretas iteradas. Al final presentan su juego como un sistema tecnologico explicando entradas, procesos y salidas.",
+      "justificacion_cobertura": {
+        "SPTI-6-7-11": "El videojuego requiere implementar algoritmos con secuenciacion, condicion y repeticion para colisiones, marcadores, niveles y final del juego.",
+        "SPTI-6-7-09": "Cada ronda de pruebas y la posterior correccion de bugs es un proceso sencillo de innovacion en el entorno como respuesta a deficiencias detectadas en el producto.",
+        "NETI-6-7-06": "La presentacion final exige explicar el videojuego como un sistema tecnologico identificando sus principios, componentes (sprites, variables, eventos) y relaciones de causa-efecto entre input del jugador y comportamiento del juego."
+      }
     },
     {
       "id": "P7-03",
@@ -103,7 +220,13 @@
         "rol_tareas",
         "repositorio_compartido",
         "retrospectiva"
-      ]
+      ],
+      "descripcion_pedagogica": "El equipo construye un juego educativo en Scratch que ensena un tema de otra asignatura (matematicas, ciencias, lengua) a estudiantes mas jovenes. Cada integrante asume un rol explicito (programacion, arte, sonido, testing) registrado en una matriz de tareas y trabaja sobre un proyecto compartido de Scratch. Cierran el periodo con una retrospectiva de equipo sobre que funciono y que mejorar.",
+      "justificacion_cobertura": {
+        "SPTI-6-7-04": "La matriz de roles, el calendario de entregas y la retrospectiva final son evidencia directa de que el equipo utiliza formas de organizacion del trabajo para resolver problemas con apoyo informatico.",
+        "SPTI-6-7-11": "El juego implementa algoritmos con secuenciacion, condicion y repeticion para validar respuestas, dar retroalimentacion y avanzar de nivel.",
+        "UATI-6-7-05": "El equipo usa TIC (Scratch, Drive, Classroom) para procesar informacion, comunicar ideas y trabajar colaborativamente generando representaciones interactivas de un contenido escolar."
+      }
     },
     {
       "id": "P7-04",
@@ -119,7 +242,77 @@
         "propuesta_inicial",
         "prototipo_iterativo",
         "video_explicativo"
-      ]
+      ],
+      "descripcion_pedagogica": "Cierre del ciclo de grado 7. Cada estudiante (o pareja) propone un proyecto interactivo libre que aplique lo aprendido en Scratch para resolver un problema o expresar una idea propia (juego, simulacion educativa, narrativa, arte generativo). Entrega una propuesta inicial con bocetos tridimensionales o representaciones graficas de la idea, itera el prototipo en al menos dos ciclos y produce un video explicativo final.",
+      "justificacion_cobertura": {
+        "SPTI-6-7-07": "Al partir de una solucion conocida (Scratch como herramienta) y adaptarla a un problema o contexto distinto elegido por el estudiante, se evidencia la adaptacion de soluciones tecnologicas e informaticas a diferentes contextos y problemas.",
+        "SPTI-6-7-10": "La propuesta inicial exige representaciones graficas tridimensionales o esquematicas de las ideas y disenos que orientaran la solucion del problema escogido.",
+        "UATI-6-7-06": "El producto final es un contenido digital que combina texto, imagen, sonido e interaccion adaptado a la situacion comunicativa que el estudiante mismo definio."
+      }
+    },
+    {
+      "id": "P7-05",
+      "nombre": "Documental sobre evolucion tecnologica",
+      "grado_aplicable": 7,
+      "duracion_semanas": 8,
+      "producto": "video_documental",
+      "modalidad": "individual",
+      "nivel_complejidad": "intermedio",
+      "evidencias_men": ["NETI-6-7-03", "NETI-6-7-05"],
+      "macrocompetencias": ["MC-CDM", "MC-ACS"],
+      "portafolio_evidencias": [
+        "guion_video",
+        "video_explicativo",
+        "reflexion_corta"
+      ],
+      "descripcion_pedagogica": "El estudiante elige un producto tecnologico contemporaneo (smartphone, GPS, antibiotico, vacuna) y produce un mini documental de 4 a 6 minutos donde explica que disciplinas (fisica, quimica, biologia, matematicas, ciencias sociales) confluyeron en su creacion y que factores historicos (guerras, crisis, descubrimientos) hicieron posible su desarrollo.",
+      "justificacion_cobertura": {
+        "NETI-6-7-03": "El guion exige proponer relaciones entre conceptos de tecnologia e informatica y factores contextuales historicos (economicos, sociales, cientificos) que hicieron posible el desarrollo del producto elegido.",
+        "NETI-6-7-05": "El documental requiere reconocer aportes de otras disciplinas (fisica de semiconductores, quimica de polimeros, biologia molecular) en la creacion de productos tecnologicos actuales."
+      }
+    },
+    {
+      "id": "P7-06",
+      "nombre": "Foro sobre cuarta revolucion industrial",
+      "grado_aplicable": 7,
+      "duracion_semanas": 8,
+      "producto": "video_documental",
+      "modalidad": "grupal",
+      "nivel_complejidad": "avanzado",
+      "evidencias_men": ["NETI-6-7-08", "TIS-6-7-03", "TIS-6-7-04"],
+      "macrocompetencias": ["MC-ACS", "MC-ECD", "MC-GPC"],
+      "portafolio_evidencias": [
+        "acta_debate",
+        "video_explicativo",
+        "reflexion_equipo"
+      ],
+      "descripcion_pedagogica": "Cada equipo investiga un eje de la cuarta revolucion industrial (IA generativa, IoT, robotica, biotecnologia) y prepara posiciones a favor y en contra de su impacto en Colombia. Realizan un foro grabado moderado donde debaten transformaciones esperadas, uso racional de los dispositivos y derechos de acceso (brecha digital urbano-rural). Producen un acta de debate y un video editado de 8 a 10 minutos.",
+      "justificacion_cobertura": {
+        "NETI-6-7-08": "El foro estructura puntos de encuentro y desencuentro sobre como tecnologias de la cuarta revolucion industrial transformaran el entorno natural, social y cultural.",
+        "TIS-6-7-03": "El debate aborda explicitamente el uso racional de artefactos tecnologicos analogicos y digitales en el contexto cotidiano del estudiante.",
+        "TIS-6-7-04": "Una de las posiciones obligatorias del foro debe analizar derechos de las comunidades para acceder a bienes y servicios tecnologicos (conectividad, energia electrica) en contextos urbanos y rurales colombianos."
+      }
+    },
+    {
+      "id": "P7-07",
+      "nombre": "Lampara solar casera con diagnostico",
+      "grado_aplicable": 7,
+      "duracion_semanas": 8,
+      "producto": "prototipo_fisico",
+      "modalidad": "mixta",
+      "nivel_complejidad": "intermedio",
+      "evidencias_men": ["NETI-6-7-07", "SPTI-6-7-06"],
+      "macrocompetencias": ["MC-DSP", "MC-ACS", "MC-DT"],
+      "portafolio_evidencias": [
+        "diseno_circuito",
+        "informe_experimentacion",
+        "reflexion_mejoras"
+      ],
+      "descripcion_pedagogica": "El equipo diseña y construye una lampara LED alimentada por una celda solar pequena con bateria recargable. Documenta el circuito, ejecuta pruebas controladas (intensidad luminica, autonomia) y aplica un protocolo de prueba y descarte cuando algo falla (cables, polaridad, carga insuficiente). Argumenta sobre el rol de las energias renovables en el futuro tecnologico.",
+      "justificacion_cobertura": {
+        "NETI-6-7-07": "El informe final argumenta sobre la transformacion y uso de fuentes de energia (solar) y su incidencia en desarrollos tecnologicos futuros (movilidad electrica, microredes, electrificacion rural).",
+        "SPTI-6-7-06": "El protocolo de diagnostico aplicado durante las pruebas (medicion con multimetro, sustitucion de componentes, prueba y descarte) es exactamente el procedimiento que evidencia la deteccion de fallas y la propuesta de alternativas de solucion."
+      }
     }
   ]
 }
