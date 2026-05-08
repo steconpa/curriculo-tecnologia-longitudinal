@@ -29,3 +29,11 @@ El `version_global` en `index.json` sigue SemVer:
 3. Agrégalo a `progresion_longitudinal.json` en el grado correspondiente
 4. Verifica que sus referencias (`evidencias_men`, `macrocompetencias`) existan
 5. Asegura que las categorías usadas estén en `taxonomy/categorias.json`
+
+## Deuda técnica conocida
+
+- **Schemas pendientes**: los archivos `02_mapping/cobertura_6_7.json` y `02_mapping/proyectos_vs_men_8_11.json` no tienen schema JSON asociado. Por tanto, el CI/CD no valida su estructura.
+- **Validación referencial**: actualmente solo se valida sintaxis y schemas individuales. No se comprueba automáticamente que los IDs de evidencias MEN referenciados en proyectos existan realmente en `competencias_6_7.json`. Esto requeriría un script personalizado.
+- **Cobertura dinámica**: el archivo `cobertura_6_7.json` es estático. Debería generarse automáticamente a partir del mapping y el currículo MEN (pendiente).
+
+Estas limitaciones serán abordadas en futuras iteraciones del sistema.
